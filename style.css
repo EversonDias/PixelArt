@@ -1,0 +1,94 @@
+body {
+  background-image: url('./img/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media ( max-width : 1800px ) {
+
+  body {
+    background-size: auto;
+    background-position: center;
+  }
+}
+
+#title {
+  text-align: center;
+  color: bisque;
+}
+
+#color-palette {
+  text-align: center;
+}
+
+.color {
+  display: inline-block;
+  border: solid 1px black;
+  width: 40px;
+  height: 40px;
+}
+
+.option-button {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#clear-board {
+  border: none;
+  border-radius: 6px;
+  width: 5rem;
+  height: 1.5rem;
+}
+
+.label-input {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#button-random-color {
+  margin-left: 0.5rem;
+  width: 8rem;
+  height: 1.5rem;
+  border: none;
+  border-radius: 6px;
+}
+
+#generate-board {
+  width: 3rem;
+  height: 1.5rem;
+  border: none;
+  border-radius: 6px;
+}
+
+#board-size {
+  width: 7rem;
+  height: 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(209, 205, 205);
+}
+
+.pixel {
+  border: solid 1px black;
+  width: 40px;
+  height: 40px;
+}
+
+.block {
+  display: block;
+}
+
+#pixel-board {
+  text-align: center;
+  line-height: 0;
+}
+
+.selected {
+  background-image: url('./img/selected.png');
+  background-size: contain;
+}
